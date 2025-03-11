@@ -125,7 +125,7 @@ return [
 
     'providers' => [
         // Otros proveedores...
-        App\Providers\RouteServiceProvider::class,
+        App\Providers\RouteServiceProvider::class, Illuminate\View\ViewServiceProvider::class,
     ],
 
 ];
